@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  position: relative;
+}
+header {
+  position: fixed;
+  background-color: #f63232;
+  z-index: 1;
+  padding: 20px 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.welcome {
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+
+.banner img {
+  max-width: 100%;
+}
+.welcome h2 {
+  background-color: #feb614;
+  color: white;
+  padding: 30px;
+}
+
+.welcome span {
+  font-size: 1.4em;
+}
